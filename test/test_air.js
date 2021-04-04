@@ -4,7 +4,7 @@ const NGC = artifacts.require("NGC");
 
 contract("Airdrop test", async accounts => {
 
-    it("init paras", async () => {
+    it("test", async () => {
         let airdrop = await Airdrop.deployed();
         let start = Math.floor(new Date("2021-04-04T14:40:29.698Z").getTime() / 1000);
         let end = Math.floor(new Date("2021-04-06T14:40:29.698Z").getTime() / 1000);
